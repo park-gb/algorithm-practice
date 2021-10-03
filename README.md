@@ -5,7 +5,7 @@
 - [백준](https://www.acmicpc.net/)
 - [프로그래머스](https://programmers.co.kr/)
 
-## 문제 유형
+## 문제 유형(폴더명)
 - string | 문자열 처리
 - greedy | 그리디 알고리즘
 - dfs-bfs | BFS & DFS 알고리즘
