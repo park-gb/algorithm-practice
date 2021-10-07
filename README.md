@@ -9,6 +9,8 @@
 - string | 문자열 처리
 - greedy | 그리디 알고리즘
 - dfs-bfs | BFS & DFS 알고리즘
+- dp | Dynamic Programming
+- data_structure | 자료구조
 - (추후 업데이트 예정)
 
 ## 문제 풀이 해설
