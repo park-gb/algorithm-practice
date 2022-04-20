@@ -14,4 +14,4 @@
 - (추후 업데이트 예정)
 
 ## 문제 풀이 해설
-- [티스토리](https://heytech.tistory.com/category/Algorithm%EF%B9%92Data%20Structure/Practice)
+- [티스토리](https://heytech.tistory.com/)
