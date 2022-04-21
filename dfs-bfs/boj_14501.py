@@ -1,3 +1,5 @@
+# 문제 원본: https://www.acmicpc.net/problem/14501
+# 개인 해설: https://heytech.tistory.com/365
 import sys; input = sys.stdin.readline
 
 def consult(day, p_total):
