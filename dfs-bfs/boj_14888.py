@@ -1,3 +1,5 @@
+# 문제 원본: https://www.acmicpc.net/problem/14888
+# 개인 해설: https://heytech.tistory.com/369
 import sys; input = sys.stdin.readline
 
 def solve(i, res):
