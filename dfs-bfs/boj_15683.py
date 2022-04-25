@@ -50,7 +50,6 @@ def count_zero(graph):
                 cnt += 1
     return cnt
 
-
 if __name__ == '__main__':
     N, M = map(int, input().split())
     graph = [list(map(int, input().split())) for _ in range(N)]
