@@ -26,9 +26,8 @@ def dfs(i, rotate):
         if 1 <= i-1 and left != graph[i-1][2]:
             # 좌측 톱니바퀴를 현재 회전한 방향과 반대 방향으로 회전
             dfs(i - 1, -rotate)
-
         # 우측 톱니바퀴의 존재여부와 인접한 톱니 간 다른 극인지 확인
-        elif i+1 <= 4 and right != graph[i+1][6]:
+        if i+1 <= 4 and right != graph[i+1][6]:
             # 우측 톱니바퀴를 현재 회전한 방향과 반대 방향으로 회전
             dfs(i + 1, -rotate)
 
@@ -43,8 +42,8 @@ if __name__ == '__main__':
     graph = [[]]
     for _ in range(4):
         graph.append(list(input().rstrip()))
-    K = int(input())
 
+    K = int(input())
     for _ in range(K):
         i, rotate = map(int, input().split())
         visited = [False]*5
