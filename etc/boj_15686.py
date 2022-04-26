@@ -1,3 +1,5 @@
+# 문제 원본: https://www.acmicpc.net/problem/15686
+# 개인 해설: https://heytech.tistory.com/374
 import sys; input = sys.stdin.readline
 from itertools import combinations
 
