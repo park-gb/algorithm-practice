@@ -16,7 +16,7 @@ def bfs(x, y):
         for dx, dy in d:
             nx = x + dx
             ny = y + dy
-            if 0 <= nx < N and 0 <= ny < N and not visited[nx][ny]
+            if 0 <= nx < N and 0 <= ny < N and not visited[nx][ny]:
                 visited[nx][ny] = True
                 # 잡아먹을 수 있는 물고기 존재하는 경우
                 if 1 <= graph[nx][ny] <= 6 and graph[nx][ny] < shark_size:
