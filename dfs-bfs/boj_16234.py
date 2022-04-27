@@ -42,8 +42,11 @@ if __name__ == '__main__':
                         population = sum([graph[x][y] for x, y in union_contry]) // len(union_contry)
                         for x, y in union_contry:
                             graph[x][y] = population
+
+        # 모든 나라를 탐색했지만 인구 이동이 일어나지 않은 경우 무한 루프 탈출
         if not move:
             break
+        # 인구 이동이 일어났기 때문에 1일 추가
         else:
             answer += 1
     print(answer)
