@@ -1,3 +1,8 @@
+'''
+- 문제: 백준 #16234 인구 이동
+- 문제 링크: https://www.acmicpc.net/problem/16234
+- 개인 해설: https://heytech.tistory.com/377
+'''
 import sys; input = sys.stdin.readline
 from collections import deque
 
