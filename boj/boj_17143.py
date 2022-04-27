@@ -35,13 +35,13 @@ def move_shark():
 
 # 상어 낚시 함수
 def catch_shark():
-    global eat
+    global answer
     # 낚시왕이 칼럼 방향으로 이동하며 낚시를 하기 때문에 칼럼 우선순위
     for i in range(C):
         for j in range(R):
             # 상어가 존재하는 경우
             if graph[j][i]:
-                eat += graph[j][i][0][2]
+                answer += graph[j][i][0][2]
                 graph[j][i].remove(graph[j][i][0])
                 break
 
@@ -64,6 +64,6 @@ if __name__ == '__main__':
         r, c, s, d, z = map(int, input().split())
         graph[r-1][c-1].append([s, d-1, z])
 
-    eat = 0
+    answer = 0
     catch_shark()
-    print(eat)
+    print(answer)
