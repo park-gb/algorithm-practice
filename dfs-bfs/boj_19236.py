@@ -1,3 +1,6 @@
+# [백준] 청소년 상어
+# 문제 원본: https://www.acmicpc.net/problem/19236
+# 개인 해설: https://heytech.tistory.com/376
 import sys; input = sys.stdin.readline
 import copy
 
