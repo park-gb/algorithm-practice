@@ -8,7 +8,7 @@ def rotate_clockwise(graph):
         graph[i+1] = graph[i]
     graph[0] = temp
 
-def rotate_countclockwise(graph):
+def rotate_counterclockwise(graph):
     temp = graph[0]
     for i in range(7):
         graph[i] = graph[i + 1]
@@ -23,7 +23,7 @@ def dfs(i, rotate):
         if rotate == 1:
             rotate_clockwise(graph[i])
         else:
-            rotate_countclockwise(graph[i])
+            rotate_counterclockwise(graph[i])
         # 좌측에 톱니바퀴의 존재여부와 인접한 톱니 간 다른 극인지 확인
         if 1 <= i-1 and left != graph[i-1][2]:
             # 좌측 톱니바퀴를 현재 회전한 방향과 반대 방향으로 회전
