@@ -68,9 +68,7 @@ def find_shark():
     for i in range(N):
         for j in range(N):
             if graph[i][j] == 9:
-                x_shark = i
-                y_shark = j
-    return x_shark, y_shark
+                return i, j
 
 # 메인함수
 if __name__ == '__main__':
