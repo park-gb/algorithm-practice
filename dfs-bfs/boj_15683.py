@@ -20,7 +20,7 @@ def dfs(graph, depth):
             watch(x, y, cctv_dir, graph_copy)
             # 현재 Case에서 타 모든 CCTV 재귀적 탐색
             dfs(graph_copy, depth + 1)
-            # CCTV를 다른 방향으로 회전시킨 후 재 탐색하기 위함
+            # CCTV를 다른 방향으로 회전시킨 후 재탐색하기 위함
             graph_copy = copy.deepcopy(graph)
 
 # CCTV 감시영역 구하는 함수
